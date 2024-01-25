@@ -58,7 +58,23 @@
 
 
 // This is our for loop
-for (let i = 0;i < 5; i++) {
+// for (let i = 0;i < 5; i++) {
+//     document.write('Five tries!');
+//     let question6 = prompt('guess my number');
+//     let answer6 = '1';
+    
+//     if (question6 === answer6) {
+//         console.log ('your-correct');
+//         alert('your-correct')
+//     } else {
+//         console.log ('try again wrong!')
+//         alert('try again wrong')
+
+//     }
+// }
+
+function numberGuess (guessmynumber) {
+    console.log(guessmynumber);
     document.write('Five tries!');
     let question6 = prompt('guess my number');
     let answer6 = '1';
@@ -73,4 +89,5 @@ for (let i = 0;i < 5; i++) {
     }
 }
 
+numberGuess(1); 
 
